@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "base_sha256": "1142ebb5b8c37e5b61168e8595eb96ddd47aa122c16e462fe0c7fc89f8069de0",
+  "cleaned_source_sha256": "380899605bedcd189c14be9ce83c703c37cd8211e5e3003aac5df8e00749afcc",
+  "output_webp_sha256": "0998fdd85221cbe6767ef91eeab2fdb14628bd4ba9f2ec07c24421800634a679",
+  "changed_rows": [
+    1,
+    2
+  ],
+  "unchanged_rows": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "size": [
+    1536,
+    2288
+  ]
+}

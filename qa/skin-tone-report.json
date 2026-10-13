@@ -1,0 +1,89 @@
+﻿{
+    "ok":  true,
+    "input":  "pre-repair spritesheet (not included)",
+    "input_sha256":  "0998fdd85221cbe6767ef91eeab2fdb14628bd4ba9f2ec07c24421800634a679",
+    "output_webp":  "spritesheet.webp",
+    "output_webp_sha256":  "892952a14be621ef98b56acb22f4530f97eb101bd166058fc5497ed2f1159f7d",
+    "derived_base_shift":  {
+                               "y":  2.703,
+                               "cb":  6.331,
+                               "cr":  -1.732
+                           },
+    "applied_soft_mask_shift":  {
+                                    "y":  3.432,
+                                    "cb":  7.281,
+                                    "cr":  -1.992
+                                },
+    "changed_pixels":  79932,
+    "weighted_pixels":  81849,
+    "alpha_changed_pixels":  0,
+    "changed_rows":  [
+                         1,
+                         2
+                     ],
+    "unchanged_rows":  [
+                           0,
+                           3,
+                           4,
+                           5,
+                           6,
+                           7,
+                           8,
+                           9,
+                           10
+                       ],
+    "standard_skin":  {
+                          "pixels":  45453,
+                          "median_rgb":  [
+                                             251.0,
+                                             230.0,
+                                             199.0
+                                         ],
+                          "mean_rgb":  [
+                                           244.51,
+                                           222.18,
+                                           192.33
+                                       ],
+                          "median_ycbcr":  [
+                                               232.76,
+                                               109.79,
+                                               140.52
+                                           ]
+                      },
+    "drag_skin_before":  {
+                             "pixels":  23460,
+                             "median_rgb":  [
+                                                251.0,
+                                                228.0,
+                                                185.0
+                                            ],
+                             "mean_rgb":  [
+                                              244.63,
+                                              221.55,
+                                              180.15
+                                          ],
+                             "median_ycbcr":  [
+                                                  230.05,
+                                                  103.46,
+                                                  142.25
+                                              ]
+                         },
+    "drag_skin_after":  {
+                            "pixels":  24464,
+                            "median_rgb":  [
+                                               251.0,
+                                               230.0,
+                                               198.0
+                                           ],
+                            "mean_rgb":  [
+                                             244.71,
+                                             221.9,
+                                             191.59
+                                         ],
+                            "median_ycbcr":  [
+                                                 232.46,
+                                                 109.95,
+                                                 140.85
+                                             ]
+                        }
+}

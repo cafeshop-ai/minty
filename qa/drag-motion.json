@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "requirements": {
+    "running_right_direction": "screen-right",
+    "running_left_direction": "screen-left",
+    "pose": "both arms visibly struggling in every frame",
+    "expression": "panicked",
+    "forbidden_elements": [
+      "rope",
+      "string",
+      "clone",
+      "afterimage",
+      "extra limb",
+      "detached prop"
+    ]
+  },
+  "running-right": {
+    "frames": 8,
+    "unique_frames": 8,
+    "width_range_px": 7,
+    "height_range_px": 0,
+    "visible_area_ratio": 1.0393,
+    "centroid_x_range_px": 1.81,
+    "adjacent_frame_differences": [
+      0.04105,
+      0.0513,
+      0.0456,
+      0.05404,
+      0.05167,
+      0.03774,
+      0.03796,
+      0.05769
+    ]
+  },
+  "running-left": {
+    "frames": 8,
+    "unique_frames": 8,
+    "width_range_px": 8,
+    "height_range_px": 0,
+    "visible_area_ratio": 1.04004,
+    "centroid_x_range_px": 3.29,
+    "adjacent_frame_differences": [
+      0.06888,
+      0.05596,
+      0.07142,
+      0.07201,
+      0.0879,
+      0.061,
+      0.0893,
+      0.08748
+    ]
+  },
+  "atlas": {
+    "version": 2,
+    "dimensions": [1536, 2288],
+    "validation": "pass",
+    "changed_rows": [1, 2],
+    "unchanged_rows": [0, 3, 4, 5, 6, 7, 8, 9, 10]
+  }
+}
