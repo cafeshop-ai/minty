@@ -9,13 +9,13 @@ Minty is a custom animated pet for the Codex desktop app: a gentle mint-haired c
 ### Windows
 
 ```powershell
-irm https://raw.githubusercontent.com/cafecodework/minty/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/cafeshop-ai/minty/main/install.ps1 | iex
 ```
 
 ### macOS / Linux
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/cafecodework/minty/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/cafeshop-ai/minty/main/install.sh | sh
 ```
 
 The installer downloads `pet.json` and `spritesheet.webp`, verifies their SHA-256 checksums, and installs them to `~/.codex/pets/minty`. You can [review the Windows installer](install.ps1) or [review the macOS/Linux installer](install.sh) before running it.

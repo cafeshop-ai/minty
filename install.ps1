@@ -5,7 +5,7 @@ $repoRef = if ($env:MINTY_REF) { $env:MINTY_REF } else { "main" }
 $baseUrl = if ($env:MINTY_BASE_URL) {
     $env:MINTY_BASE_URL.TrimEnd("/")
 } else {
-    "https://raw.githubusercontent.com/cafecodework/minty/$repoRef"
+    "https://raw.githubusercontent.com/cafeshop-ai/minty/$repoRef"
 }
 $codexHome = if ($env:CODEX_HOME) { $env:CODEX_HOME } else { Join-Path $HOME ".codex" }
 $target = Join-Path (Join-Path $codexHome "pets") "minty"

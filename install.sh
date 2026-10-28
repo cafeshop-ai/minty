@@ -2,7 +2,7 @@
 set -eu
 
 repo_ref=${MINTY_REF:-main}
-base_url=${MINTY_BASE_URL:-"https://raw.githubusercontent.com/cafecodework/minty/$repo_ref"}
+base_url=${MINTY_BASE_URL:-"https://raw.githubusercontent.com/cafeshop-ai/minty/$repo_ref"}
 codex_home=${CODEX_HOME:-"$HOME/.codex"}
 target="$codex_home/pets/minty"
 download_dir=$(mktemp -d "${TMPDIR:-/tmp}/minty-install.XXXXXX")
